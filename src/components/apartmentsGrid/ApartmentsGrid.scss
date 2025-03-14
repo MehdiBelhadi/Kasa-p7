@@ -1,0 +1,17 @@
+@use "../../scss/variables.scss" as *;
+
+.grid {
+  background-color: $background-light;
+  min-height: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px;
+  justify-content: space-between;
+  & > * {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+

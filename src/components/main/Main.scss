@@ -1,0 +1,10 @@
+@use "../../scss/variables.scss" as *;
+
+.main {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  @media screen and (width <= 768px) {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,18 @@
+@use "../../scss/variables.scss" as *;
+
+.apartment-page {
+
+  color: $color-primary;
+  font-family: "Montserrat", serif;
+
+  .apartment__description__area {
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+
+
+    &image__banner {
+      height: 420px;
+    }
+  }
+}
